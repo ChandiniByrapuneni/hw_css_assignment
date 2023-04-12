@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>FLEXBOX</title>
+                <style>
+                        .flex-container1 {
+                                display: flex;
+                                width: 450px;
+                                height: 450px;
+                                background-color: grey;
+                                justify-content: center;
+                                align-items: center;
+                        }
+                        .flex-container {
+                                display: flex;
+                                width: 400px;
+                                height: 400px;
+                                background-color: white;
+                                border: 1px solid rgba(21, 16, 16, 0.775);
+                                flex-direction: column;
+                                flex-wrap: wrap;
+                        }
+                        .box1 {
+                                width: 240px;
+                                height: 400px;
+                                background-color: rgb(53, 148, 226);
+                                display: flex;
+                                flex-direction: row-reverse;
+                                flex-wrap: wrap;
+                        }
+                        .box2 {
+                                width: 200px;
+                                height: 30px;
+                                background-color: #ffdead;
+                                margin-bottom: 10px;
+                        }
+                        .box3 {
+                                width: 160px;
+                                height: 160px;
+                                background-color: lightgray;
+                                margin-bottom: 10px;
+                        }
+                        .box4 {
+                                width: 200px;
+                                height: 30px;
+                                background-color: #deb887;
+                                margin-bottom: 10px;
+                        }
+                        .box5 {
+                                width: 200px;
+                                height: 30px;
+                                background-color: palegreen;
+                                margin-bottom: 10px;
+                        }
+                        .box6 {
+                                width: 160px;
+                                height: 280px;
+                                background-color: pink;
+                                display: flex;
+                                flex-wrap: wrap;
+                        }
+                        .box7 {
+                                width: 30px;
+                                height: 30px;
+                                background-color: #deb887;
+                                margin-bottom: 10px;
+                        }
+
+                        .box8 {
+                                width: 30px;
+                                height: 30px;
+                                background-color: #ffdead;
+                                margin-bottom: 10px;
+                        }
+                        .box9 {
+                                width: 30px;
+                                height: 30px;
+                                background-color: limegreen;
+                                margin-bottom: 10px;
+                        }
+                </style>
+        </head>
+        <body>
+                <div class="flex-container1">
+                        <div class="flex-container">
+                                <div class="box1">
+                                        <div class="box2">
+                                                <div class="box7"></div>
+                                        </div>
+                                        <div class="box3"></div>
+                                        <div class="box4">
+                                                <div class="box8"></div>
+                                        </div>
+                                        <div class="box5">
+                                                <div class="box9"></div>
+                                        </div>
+                                </div>
+                                <div class="box6"></div>
+                        </div>
+                </div>
+        </body>
+</html>
